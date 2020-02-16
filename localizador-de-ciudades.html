@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Leaflet JS Live Maps</title>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+        integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+        crossorigin=""/>
+         
+        <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+        integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+        crossorigin=""></script>
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+    <body>
+        <h1>Las ciudades más pobladas del mundo</h1>
+        <table>
+            <tr>
+                <th>Ciudad</th>
+                <th>País</th>
+                <th>Coordenadas</th>
+            </tr>
+            <tr class="tableRow" onclick=testFunction1()>
+                <td>Tokio</td>
+                <td>Japón</td>
+                <td>35.6894989, 139.6917114</td>
+            </tr>
+            <tr class="tableRow" onclick=testFunction2()>
+                <td>Cantón</td>
+                <td>China</td>
+                <td>23.1166706, 113.25</td>
+            </tr>
+            <tr class="tableRow" onclick=testFunction3()>
+                <td>Shanghái</td>
+                <td>China</td>
+                <td>31.2222195, 121.4580612</td>
+            </tr>
+            <tr class="tableRow" onclick=testFunction4()>
+                <td>Yakarta</td>
+                <td>Indonesia</td>
+                <td>-6.2146201, 106.8451309</td>
+            </tr>
+            <tr class="tableRow" onclick=testFunction5()>
+                <td>Delhi</td>
+                <td>India</td>
+                <td>28.6519508, 77.2314911</td>
+            </tr>
+            <tr class="tableRow" onclick=testFunction6()>
+                <td>Seúl</td>
+                <td>Corea</td>
+                <td>37.5660019, 126.9784012</td>
+            </tr>
+            <tr class="tableRow" onclick=testFunction7()>
+                <td>Karachi</td>
+                <td>Pakistán</td>
+                <td>30.3753204, 69.3451157</td>
+            </tr>
+            <tr class="tableRow" onclick=testFunction8()>
+                <td>Bombay</td>
+                <td>India</td>
+                <td>19.0728302, 72.8826065</td>
+                </tr>
+             <tr class="tableRow" onclick=testFunction9()>
+                <td>Manila</td>
+                <td>Filipinas</td>
+                <td>14.6042004, 120.9822006</td>
+            </tr>
+            <tr class="tableRow" onclick=testFunction10()>
+                <td>Ciudad de México</td>
+                <td>México</td>
+                <td>19.4284706, -99.1276627</td>
+            </tr>
+        </table>
+        <div id="mapid" style="width: 80%; height: 500px"></div>
+        <script src="script.js"></script> 
+    </body>
+</html>
+    
